@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline:none;
+}
+ body {
+display:flex;
+justify-content: center;
+align-items:center;
+background-color: #607660;
+min-height: 100vh;
+margin: 0;
+}
+.container{
+    background-color:white;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.header h2{
+    margin:0;
+}
